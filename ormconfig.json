@@ -1,10 +1,10 @@
 {
     "type": "postgres",
-    "host": "localhost",
-    "port": "3306",
-    "username": "root",
-    "password": "",
-    "database": "NestJSA",
+    "host": "ec2-54-224-120-186.compute-1.amazonaws.com",
+    "port": "5432",
+    "username": "gjxnweoayyenzl",
+    "password": "a25fff945774deab1c56ad34f655a47d430a86cda3aff7c1e428873ebeafbba3",
+    "database": "d52prg6l88aldt",
     "extra":{
         "ssl":{
             "rejectUnauthorized": false
