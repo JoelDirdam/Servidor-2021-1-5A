@@ -15,7 +15,6 @@ import { join } from 'node:path';
     CategoriesModule,
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'avatars'),
-      serveRoot: "/api/avatars"
     }),
   ],
   controllers: [AppController],
