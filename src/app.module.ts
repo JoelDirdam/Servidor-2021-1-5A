@@ -14,7 +14,7 @@ import { join } from 'node:path';
     UsuariosModule,
     CategoriesModule,
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'avatars'),
+      rootPath: join(__dirname, '..', 'avatars')
     }),
   ],
   controllers: [AppController],
